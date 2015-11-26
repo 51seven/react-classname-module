@@ -68,6 +68,7 @@ And that's it.
 ## Doesn't support (currently)
 
 * identical local and global classnames
+* stateless Components
 * merging `className` on a React Component:  
   e.g. `<Foo className="bar" />` will override the Components className with the CSS Module `"bar"`
 
