@@ -1,5 +1,7 @@
 # React Classname Module
 
+[![react-classname-module on npm](https://img.shields.io/npm/v/react-classname-module.svg)](https://www.npmjs.com/package/react-classname-module)
+
 **React Classname Module** allows you to write your classnames for [CSS Modules](https://github.com/css-modules/css-modules) as easy as without CSS Modules. It's build with [classnames](https://github.com/JedWatson/classnames), so you have a simple and powerful way to write your classnames.
 
 **Notice: This is currently in an early alpha stage**
