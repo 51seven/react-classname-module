@@ -20,7 +20,7 @@
     "modules"
   ],
   "homepage": "https://github.com/51seven/react-classname-module",
-  "bugs": "https://github.com/51seven/react-classname-modules/issue",
+  "bugs": "https://github.com/51seven/react-classname-module/issues",
   "author": {
     "name": "timomeh",
     "email": "timo@51seven.de"
