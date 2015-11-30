@@ -1,11 +1,11 @@
 {
   "name": "react-classname-module",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Write CSS Modules painless with className and classnames()",
   "main": "./lib/index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/51seven/react-classname-modules.git"
+    "url": "git+https://github.com/51seven/react-classname-module.git"
   },
   "scripts": {
     "watch": "babel src --watch --out-dir lib",
@@ -19,8 +19,8 @@
     "css",
     "modules"
   ],
-  "homepage": "https://github.com/51seven/react-classname-modules",
-  "bugs": "https://github.com/51seven/react-classname-modules/issues",
+  "homepage": "https://github.com/51seven/react-classname-module",
+  "bugs": "https://github.com/51seven/react-classname-modules/issue",
   "author": {
     "name": "timomeh",
     "email": "timo@51seven.de"

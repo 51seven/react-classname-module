@@ -62,13 +62,13 @@ And that's it.
 ## Features
 
 * Supports local and global classnames
+* Works with stateless Components
 * Works with multiple classes: `className="btn btn-highlight"`
 * Works with [classnames](https://github.com/JedWatson/classnames)
 
 ## Doesn't support (currently)
 
 * identical local and global classnames
-* stateless Components
 * merging `className` on a React Component:  
   e.g. `<Foo className="bar" />` will override the Components className with the CSS Module `"bar"`
 
@@ -85,3 +85,14 @@ let classnames = {
 
 <div className={classnames}></div>
 ```
+
+## Changelog
+
+### v0.0.1
+
+* initial version
+
+### v0.1.0
+
+* Removed silly dead code
+* Support for stateless components
