@@ -94,7 +94,7 @@ function recursiveTransform(element, cx) {
 // With React 0.14 we have these awesome stateless Components, but we need
 // to wrap them in secret to a normal Component.
 function wrapStatelessComponent(Component) {
-  return class extends React.Component {
+  class Wrapped extends React.Component {
     constructor() {
       super()
       this.displayName = Component.name
@@ -104,6 +104,17 @@ function wrapStatelessComponent(Component) {
       return Component(this.props)
     }
   }
+
+  // We need to consider the defaultProps and propTypes, too, when wrapping the
+  // component
+  if (Component.defaultProps) {
+    Wrapped.defaultProps = Component.defaultProps
+  }
+  if (Component.propTypes) {
+    Wrapped.propTypes = Component.propTypes
+  }
+
+  return Wrapped
 }
 
 export default receiveComponent
