@@ -88,11 +88,17 @@ let classnames = {
 
 ## Changelog
 
-### v0.0.1
+### v0.1.1
 
-* initial version
+* Fixed missing `defaultProps` and `propTypes` in stateless Components
+
 
 ### v0.1.0
 
 * Removed silly dead code
 * Support for stateless components
+
+
+### v0.0.1
+
+* initial version
