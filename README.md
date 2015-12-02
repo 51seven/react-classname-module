@@ -1,6 +1,6 @@
 <h1 align="center">
   <a href="https://github.com/51seven/react-classname-module">
-    <img src="https://cloud.githubusercontent.com/assets/4227520/11537012/6b6c382c-991b-11e5-9a63-af5d1c988f0d.png" alt="React Classname Module" />
+    <img src="https://cloud.githubusercontent.com/assets/4227520/11537692/7e966f64-991e-11e5-9f34-ff8adf99f412.png" alt="React Classname Module" />
   </a>
 </h1>
 
