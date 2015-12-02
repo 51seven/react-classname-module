@@ -1,10 +1,18 @@
-# React Classname Module
+<h1 align="center">
+  <a href="https://github.com/51seven/react-classname-module">
+    <img src="https://cloud.githubusercontent.com/assets/4227520/11537012/6b6c382c-991b-11e5-9a63-af5d1c988f0d.png" alt="React Classname Module" />
+  </a>
+</h1>
 
-[![react-classname-module on npm](https://img.shields.io/npm/v/react-classname-module.svg)](https://www.npmjs.com/package/react-classname-module)
+<p align="right">
+  <a href="https://www.npmjs.com/package/react-classname-module">
+    <img src="https://img.shields.io/npm/v/react-classname-module.svg" alt="react-classname-module on npm" />
+  </a>
+</p>
 
 **React Classname Module** allows you to write your classnames for [CSS Modules](https://github.com/css-modules/css-modules) as easy as without CSS Modules. It's build with [classnames](https://github.com/JedWatson/classnames), so you have a simple and powerful way to write your classnames.
 
-**Notice: This is currently in an early alpha stage**
+**Notice:** This is currently a 0.x version. What this actually means is that it works in our project but we're too busy to write tests to be sure that it'll work in your project, too.
 
 ## Install
 
